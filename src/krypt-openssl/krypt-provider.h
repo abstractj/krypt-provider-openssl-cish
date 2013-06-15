@@ -25,6 +25,8 @@
  * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+#include <stddef.h>
+#include <inttypes.h>
 
 #ifndef _KRYPT_PROVIDER_H_
 #define _KRYPT_PROVIDER_H_
@@ -37,8 +39,6 @@
 #ifndef RUBY_READONLY_STRING
 #define RUBY_READONLY_STRING 1
 #endif
-
-#include <ruby.h>
 
 #ifndef KRYPT_OK
 #define KRYPT_OK 1
