@@ -1,2 +1,2 @@
 SUBDIRS = \
-	krypt-openssl
+	libkryptopenssl

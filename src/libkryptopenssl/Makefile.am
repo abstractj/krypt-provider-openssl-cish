@@ -1,7 +1,7 @@
 lib_LTLIBRARIES = \
-	libkryptprovider.la
+	libkryptopenssl.la
 
-libkryptprovider_la_SOURCES = \
+libkryptopenssl_la_SOURCES = \
 												 krypt-provider-ossl.h \
 												 krypt_provider_ossl.c \
 												 krypt_ossl_digest.c \

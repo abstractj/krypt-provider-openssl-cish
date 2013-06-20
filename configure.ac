@@ -2,7 +2,7 @@
 # This configure.ac script is free software; the Free Software Foundation
 # gives unlimited permission to copy, distribute and modify it.
 
-AC_INIT([krypt-openssl], [1.0], [bug-automake@gnu.org])
+AC_INIT([libkryptopenssl], [1.0], [bug-automake@gnu.org])
 AC_CONFIG_MACRO_DIR([m4])
 
 LT_INIT
@@ -55,6 +55,6 @@ AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([
  Makefile
  src/Makefile
- src/krypt-openssl/Makefile
+ src/libkryptopenssl/Makefile
 ])
 AC_OUTPUT
