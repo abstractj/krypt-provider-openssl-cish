@@ -3,6 +3,12 @@
 # gives unlimited permission to copy, distribute and modify it.
 
 AC_INIT([krypt-openssl], [1.0], [bug-automake@gnu.org])
+AC_CONFIG_MACRO_DIR([m4])
+
+LT_INIT
+AC_SUBST(LIBTOOL_DEPS)
+AM_PROG_AR
+
 AC_CHECK_HEADERS(openssl/ssl.h openssl/bio.h openssl/asn1.h \
 		openssl/x509.h openssl/pem.h openssl/err.h \
     openssl/opensslv.h)
